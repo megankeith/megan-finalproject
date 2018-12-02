@@ -21,3 +21,28 @@
 // Import partials
 @import "nav";
 @import "jumbotron";
+
+h1 {
+    text-align: center;
+    color: red;
+    font-family: 'Ewert', cursive;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Ewert', cursive;
+    color: olivedrab;
+}
+
+h5, h6 {
+    text-align: center;
+    font-family: 'Playfair Display SC', serif;
+    color: black;
+}
+
+.card-title {
+    text-align: center;
+    font-family: 'Playfair Display SC', serif;
+    color: red;
+}
+
