@@ -22,27 +22,53 @@
 @import "nav";
 @import "jumbotron";
 
+
+
 h1 {
     text-align: center;
     color: red;
     font-family: 'Ewert', cursive;
+    font-size: 15rem;
 }
 
 h2 {
     text-align: center;
     font-family: 'Ewert', cursive;
-    color: olivedrab;
+    color: red;
 }
 
-h5, h6 {
+h3 {
+    color: olivedrab;
+    text-align: center;
+    font-family: 'Ewert', cursive;
+}
+
+h4 {
+    color: olivedrab;
+    text-align: center;
+    font-family: 'Ewert', cursive;
+    
+}
+
+h5 {
     text-align: center;
     font-family: 'Playfair Display SC', serif;
     color: black;
 }
 
+h6 {
+    color: olivedrab;
+    text-align: center;
+    font-family: 'Ewert', cursive;
+    font-size: 5rem;
+}
+
 .card-title {
     text-align: center;
-    font-family: 'Playfair Display SC', serif;
-    color: red;
+    font-family: 'Ewert', cursive;
+    color: goldenrod;
 }
+
+
+
 

@@ -12,12 +12,12 @@
 
     <div class="col-sm-7">
       {% block story %}
-      <h1>{{ members.name }}</h1>
-      <h2>{{ members.instruments}}</h2>
+      <h2>{{ members.name }}</h2>
+      <h3>{{ members.instruments}}</h3>
       <h5>Tenure: {{ members.tenure}}</h5>
       <h5>Birthday: {{ members.birthdate}}</h5>
       <h5>Birthplace: {{ members.birthplace}}</h5>
-      <h6>{{ members.text | safe}}</h6>
+      <h5>{{ members.text | safe}}</h5>
       {% endblock %}
 
     </div>
