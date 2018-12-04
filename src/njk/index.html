@@ -5,7 +5,7 @@
 {% block content %}
 
 <div class="container">
-<h1>QUEEN</h1>
+<h1 style="font-size:8vw;">QUEEN</h1>
   <div class="row">
     
       
@@ -34,14 +34,14 @@
  
     
     <ul class="list-unstyled">
-     <h6>Discography</h6>
+     <h6 style="font-size:8vw;">Discography</h6>
      <br>
       {%for disc in discography%}
         <li class="media">
         <img class="mr-3" src="../assets/img/{{disc.image}}">
         <div class="media-body">
         <h5 class="mt-0 mb-1">{{ disc.title }}, {{ disc.year }}</h5>
-        </div>
+        </div> 
         </li>
         {% endfor %}
     </ul>
