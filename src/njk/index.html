@@ -11,7 +11,7 @@
       
       {% for member in members%}
         <div class="col-sm-3">
-          <div class="card" style="width: 16rem;"><a href="{{member.name}}.html">
+          <div class="card" style="width: 16rem;"><a href="{{member.slug}}.html">
             <img class="card-img-top" src="assets/img/{{member.imagebw}}" alt="Card image cap">
               <h4 class="card-title">{{member.name}}</h4>
               <div class="card-body">
@@ -34,7 +34,7 @@
  
     
     <ul class="list-unstyled">
-     <h6 style="font-size:8vw;">Discography</h6>
+     <h6 style="font-size:5vw;">Discography</h6>
      <br>
       {%for disc in discography%}
         <li class="media">
